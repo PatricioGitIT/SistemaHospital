@@ -1,0 +1,3 @@
+El front-end se hizo con vue 3 + vite
+el backend con node v20 con el framework express
+la base de datos es postgreSQL 16
