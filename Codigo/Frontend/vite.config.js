@@ -8,5 +8,9 @@ export default defineConfig({
     alias: {
       '@': '/src'
     }
+  },
+  build: {
+    outDir: 'dist',  // Asegúrate de que los archivos de compilación se coloquen en esta carpeta
+    emptyOutDir: true,  // Borra la carpeta dist antes de generar nuevos archivos (opcional, pero útil)
   }
 })

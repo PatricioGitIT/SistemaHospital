@@ -36,12 +36,19 @@ pool.connect((err) => {
 
 app.use(express.json());
 
-app.use(express.static(path.join(__dirname, '../Frontend')));
+// Sirve archivos estáticos desde la carpeta dist
+app.use(express.static(path.join(__dirname, '../Frontend/dist')));
 
-// Inicia el servidor
+// Ruta principal para servir el archivo index.html
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname, '../Frontend/dist', 'index.html'));
+});
+
+// Iniciar el servidor
 app.listen(PORT, () => {
-    console.log(`Servidor corriendo en http://localhost:${PORT}`);
-  });
+  console.log(`Servidor corriendo en http://localhost:${PORT}`);
+});
+
 /*
     Configuracion del Multer
 */
@@ -511,7 +518,7 @@ app.post('/documento', upload.single('file'), async (req, res) => {
     Metodos GET 
 */
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, '../Frontend', 'index.html'));
+    res.sendFile(path.join(__dirname, '../Frontend/', 'index.html'));
 });
 // Ruta GET '/usuario': Devuelve un solo usuario
 app.get('/usuario', async (req, res) => {
