@@ -36,6 +36,12 @@ pool.connect((err) => {
 
 app.use(express.json());
 
+app.use(express.static(path.join(__dirname, '../Frontend')));
+
+// Inicia el servidor
+app.listen(PORT, () => {
+    console.log(`Servidor corriendo en http://localhost:${PORT}`);
+  });
 /*
     Configuracion del Multer
 */
