@@ -37,11 +37,11 @@ pool.connect((err) => {
 app.use(express.json());
 
 // Sirve archivos estáticos desde la carpeta dist
-app.use(express.static(path.join(__dirname, '../Frontend/dist')));
+app.use(express.static(path.join(__dirname, '../Frontend/')));
 
 // Ruta principal para servir el archivo index.html
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, '../Frontend/dist', 'index.html'));
+  res.sendFile(path.join(__dirname, '../Frontend/', 'index.html'));
 });
 
 // Iniciar el servidor
