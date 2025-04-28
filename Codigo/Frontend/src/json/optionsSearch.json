@@ -1,0 +1,82 @@
+[
+    {
+        "id":0,
+        "nombre":"Cualquier Ambito",
+        "iniciales": "CA"
+    },
+    {
+        "id": 1,
+        "nombre": "Dignidad del Paciente",
+        "iniciales": "DP"
+    },
+    {
+        "id": 2,
+        "nombre": "Calidad",
+        "iniciales": "CAL"
+    },
+    {
+        "id": 3,
+        "nombre": "Gestión Clinica",
+        "iniciales": "GCL"
+    },
+    {
+        "id": 4,
+        "nombre": "Acceso, Oportunidad y Continuidad de la Atención",
+        "iniciales": "AOC"
+    },
+    {
+        "id": 5,
+        "nombre": "Recursos Humano",
+        "iniciales": "RH"
+    },
+    {
+        "id": 6,
+        "nombre": "Registros",
+        "iniciales": "REG"
+    },
+    {
+        "id": 7,
+        "nombre": "Equipamiento",
+        "iniciales": "EQ"
+    },
+    {
+        "id": 8,
+        "nombre": "Instalaciones",
+        "iniciales": "INS"
+    },
+    {
+        "id": 9,
+        "nombre": "Apoyo Laboratorio",
+        "iniciales": "APL"
+    },
+    {
+        "id": 10,
+        "nombre": "Apoyo Farmacia",
+        "iniciales": "APF"
+    },
+    {
+        "id": 11,
+        "nombre": "Apoyo Esterilización",
+        "iniciales": "APE"
+    },
+    {
+        "id": 12,
+        "nombre": "Apoyo Transporte",
+        "iniciales": "APT"
+    },
+    {
+        "id": 13,
+        "nombre": "Apoyo Imagenología",
+        "iniciales": "API"
+    },
+    {
+        "id": 14,
+        "nombre": "Formularios",
+        "iniciales": "FORM"
+    },
+    {
+        "id": 15,
+        "nombre": "Protocolos Generales",
+        "iniciales": "PG"
+    }
+]

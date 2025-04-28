@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "nombre": "Superusuario"
+    },
+    {
+        "id": 2,
+        "nombre": "Profesional y Superiores"
+    },
+    {
+        "id": 3,
+        "nombre": "Funcionario y Superiores"
+    },
+    {
+        "id": 4,
+        "nombre": "Funcionario reemplazo y Superiores"
+    },
+    {
+        "id": 5,
+        "nombre": "Estudiante en practica y Superiores"
+    }
+]

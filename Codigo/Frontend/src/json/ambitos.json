@@ -1,0 +1,108 @@
+[
+    {
+        "id": 1,
+        "nombre": "Dignidad del Paciente",
+        "iniciales": "DP",
+        "icono": "accessibility_new",
+        "path" :"/documentos/:id"
+    },
+    {
+        "id": 2,
+        "nombre": "Calidad",
+        "iniciales": "CAL",
+        "icono": "verified",
+        "path" :"/documentos/:id"
+    },
+    {
+        "id": 3,
+        "nombre": "Gestión Clinica",
+        "iniciales": "GCL",
+        "icono": "local_hospital",
+        "path" :"/documentos/:id"
+    },
+    {
+        "id": 4,
+        "nombre": "Acceso, Oportunidad y Continuidad de la Atención",
+        "iniciales": "AOC",
+        "icono": "volunteer_activism",
+        "path" :"/documentos/:id"
+    },
+    {
+        "id": 5,
+        "nombre": "Recursos Humano",
+        "iniciales": "RH",
+        "icono": "groups",
+        "path" :"/documentos/:id"
+
+    },
+    {
+        "id": 6,
+        "nombre": "Registros",
+        "iniciales": "REG",
+        "icono": "app_registration",
+        "path" :"/documentos/:id"
+    },
+    {
+        "id": 7,
+        "nombre": "Equipamiento",
+        "iniciales": "EQ",
+        "icono": "home_repair_service",
+        "path" :"/documentos/:id"
+    },
+    {
+        "id": 8,
+        "nombre": "Instalaciones",
+        "iniciales": "INS",
+        "icono": "location_city",
+        "path" :"/documentos/:id"
+    },
+    {
+        "id": 9,
+        "nombre": "Apoyo Laboratorio",
+        "iniciales": "APL",
+        "icono": "vaccines",
+        "path" :"/documentos/:id"
+    },
+    {
+        "id": 10,
+        "nombre": "Apoyo Farmacia",
+        "iniciales": "APF",
+        "icono": "medication",
+        "path" :"/documentos/:id"
+    },
+    {
+        "id": 11,
+        "nombre": "Apoyo Esterilización",
+        "iniciales": "APE",
+        "icono": "masks",
+        "path" :"/documentos/:id"
+    },
+    {
+        "id": 12,
+        "nombre": "Apoyo Transporte",
+        "iniciales": "APT",
+        "icono": "airport_shuttle",
+        "path" :"/documentos/:id"
+    },
+    {
+        "id": 13,
+        "nombre": "Apoyo Imagenología",
+        "iniciales": "API",
+        "icono": "camera_outdoor",
+        "path" :"/documentos/:id"
+    },
+    {
+        "id": 14,
+        "nombre": "Formularios",
+        "iniciales": "FORM",
+        "icono": "summarize",
+        "path" :"/documentos/:id"
+    },
+    {
+        "id": 15,
+        "nombre": "Protocolo Generales",
+        "iniciales": "PG",
+        "icono": "info",
+        "path" :"/documentos/:id"
+    }
+]
