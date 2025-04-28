@@ -505,7 +505,7 @@ app.post('/documento', upload.single('file'), async (req, res) => {
     Metodos GET 
 */
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, '../Frontend/dist', 'index.html'));
+    res.sendFile(path.join(__dirname, '../Frontend', 'index.html'));
 });
 // Ruta GET '/usuario': Devuelve un solo usuario
 app.get('/usuario', async (req, res) => {
