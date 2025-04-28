@@ -14,7 +14,6 @@ const PORT = process.env.PORT || 3000;
 const JWT_SECRET_KEY = process.env.JSW_SECRET_KEY;
 const mySalt = process.env.mySalt;
 
-
 const app = express();
 //Cors
 const corsConfig = {
@@ -36,14 +35,6 @@ pool.connect((err) => {
 })
 
 app.use(express.json());
-
-// Servir archivos estáticos (frontend) desde la carpeta dist
-app.use(express.static(path.join(__dirname, '../Frontend'))); // Usamos path.join para construir la ruta correcta a la carpeta dist
-
-// Ruta principal para servir el archivo index.html de frontend
-app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, '../Frontend', 'index.html')); // Usamos path.join para evitar errores de rutas
-});
 
 /*
     Configuracion del Multer
@@ -862,8 +853,7 @@ setInterval(eliminarUsuarioCaducados, 24 * 60 * 60 * 1000);
 // Iniciar el servidor
 app.listen(PORT, () => {
     // Imprimir mensaje en la consola indicando que el servidor está escuchando en el puerto PORT
-    console.log(`Escuchando en ${PORT}`, 'a' ,{path});
-    
+    console.log(`Escuchando en ${PORT}`, __dirname);
 
     // Llamar a la función eliminarUsuarioCaducados una vez al iniciar el servidor
     eliminarUsuarioCaducados();
